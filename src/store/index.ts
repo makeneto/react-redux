@@ -4,7 +4,7 @@ import type { TypedUseSelectorHook } from "react-redux"
 
 const todoSlice = createSlice({
     name: "todo",
-    initialState: ["comer bem", "treinar"] as string[],
+    initialState: [] as string[],
 
     reducers: {
         add(state, action) {
